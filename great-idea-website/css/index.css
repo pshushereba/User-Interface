@@ -89,15 +89,21 @@ nav a {
 }
 
 span {
-	font-size: 50px;
+	font-size: 75px;
 	font-family: 'Bangers', cursive;
+}
+
+hr {
+	size: 2px;
 }
 
 button {
 	display: block;
-	width: 125px;
+	width: 150px;
 	height: 25px;
+	font-size: 14px;
 	margin: 0 auto;
+	border: 1px solid black;
 	background: none;
 }
 
@@ -142,7 +148,7 @@ button {
 	display: inline-block;
 	margin: 0 auto;
 	width: 100%;
-	border: 2px dashed blue;
+	border: 2px dashed transparent;
 }
 
 .mid-content img {
@@ -152,12 +158,12 @@ button {
 
 .bottom-content {
 	display: inline-block;
-	border: 2px solid black;
+	border: 2px solid transparent;
 }
 
 .features, .about{
 	display: inline-block;
-	margin: 0 auto;
+	margin: 10px auto;
 	padding: 20px 40px;
 	width: 49%;
 }
@@ -170,5 +176,13 @@ button {
 	display: inline-block;
 	margin: 0 auto;
 	padding: 20px;
-	width: 33%;
+	width: 32%;
+}
+
+.services {
+	margin-left: 20px;
+}
+
+.copyright {
+	text-align: center;
 }
