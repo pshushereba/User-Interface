@@ -176,11 +176,16 @@ button {
 	display: inline-block;
 	margin: 0 auto;
 	padding: 20px;
+	padding-bottom: 40px;
 	width: 32%;
 }
 
 .services {
 	margin-left: 20px;
+}
+
+footer {
+	margin-top: 10px
 }
 
 .copyright {
