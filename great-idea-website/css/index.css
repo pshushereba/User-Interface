@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,111 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 1000px;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+.logo {
+	display: inline-block;
+	margin-left: auto;
+	padding-left: 90px;
+}
+
+nav {
+	border: 2px solid transparent;
+}
+
+nav a {
+	border: 2px dashed transparent;
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color: #e3e3e3;
+}
+
+span {
+	font-size: 50px;
+	font-family: 'Bangers', cursive;
+}
+
+button {
+	display: block;
+	width: 125px;
+	height: 25px;
+	margin: 0 auto;
+	background: none;
+}
+
+.top-content {
+	border: 2px solid transparent;
+	display: inline-block;
+	padding: 40px;
+	width: 100%;
+}
+
+.welcome {
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 15px;
+	width: 50%;
+	text-align: center;
+}
+
+.top-content-image {
+	display: inline-block;
+	float: right;
+	position: relative;
+}
+
+.part-1 {
+	display: block;
+	width: 100%;
+
+}
+
+ .part-2 {
+	display: inline-block;
+	width: 100%;
+}
+
+ .part-3 {
+	display: block;
+	width: 100%;
+}
+
+.mid-content {
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
+	border: 2px dashed blue;
+}
+
+.mid-content img {
+	padding: 0 40px;
+
+}
+
+.bottom-content {
+	display: inline-block;
+	border: 2px solid black;
+}
+
+.features, .about{
+	display: inline-block;
+	margin: 0 auto;
+	padding: 20px 40px;
+	width: 49%;
+}
+
+.about {
+	padding-right: 60px;
+}
+
+.services, .product, .vision {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 20px;
+	width: 33%;
+}
